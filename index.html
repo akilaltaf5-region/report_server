@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="login-container">
+    <h2>Login Report</h2>
+    <input type="text" id="username" placeholder="USERNAME">
+    <input type="password" id="password" placeholder="PASSWORD">
+    <button id="login-btn">ENTER</button>
+    <p class="credit">© by akilaltaf5</p>
+  </div>
+
+  <div class="profile" id="profile" style="display: none;">
+    <div class="profile-icon" id="profile-icon">A</div>
+    <span class="username" id="display-username"></span>
+  </div>
+
+  <div class="report-section" id="report-section" style="display: none;">
+    <button class="report-btn" id="report-btn">REPORT TO ADMIN</button>
+  </div>
+
+  <div class="report-box" id="report-box" style="display: none;">
+    <textarea id="report-text" placeholder="Masukkan teks laporan kamu..."></textarea>
+    <button id="send-report">KIRIM</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
